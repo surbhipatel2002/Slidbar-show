@@ -1,0 +1,36 @@
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+.carousel-control-next, .carousel-control-prev{
+    opacity: 1 !important;
+}
+.carousel{
+    width: 800px;
+}
+body{
+    text-align: -webkit-center;
+    background: antiquewhite;
+}
+h1{
+    font-family: ui-sans-serif;
+    padding: 20px;
+    
+}
+.carousel-indicators li{
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+}
+.carousel-control-next-icon, 
+.carousel-control-prev-icon{
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 992px){
+    .carousel {
+        width: 100%;
+    }    
+}
